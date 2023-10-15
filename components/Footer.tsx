@@ -71,9 +71,7 @@ const Footer = () => {
             className="relative m-0 block w-full min-w-0 2xl:placeholder:text-xl 2xl:text-xl flex-auto rounded-l-md border border-solid border-kode-crumbs-orange dark:border-kode-crumbs-black bg-white bg-clip-padding px-3 py-2 text-sm placeholder:text-kode-crumbs-black outline-none transition duration-200 ease-in-out"
             placeholder="Email Address"
           />
-          <span
-            className="flex items-center 2xl:text-xl w-8/12 2xl:w-5/12 whitespace-nowrap rounded-r-md border border-l-0 text-kode-crumbs-black dark:text-white bg-kode-crumbs-orange dark:bg-kode-crumbs-black border-solid border-kode-crumbs-orange  dark:border-kode-crumbs-black px-3 py-2 text-center text-sm"
-          >
+          <span className="flex items-center 2xl:text-xl w-8/12 2xl:w-5/12 whitespace-nowrap rounded-r-md border border-l-0 text-kode-crumbs-black dark:text-white bg-kode-crumbs-orange dark:bg-kode-crumbs-black border-solid border-kode-crumbs-orange  dark:border-kode-crumbs-black px-3 py-2 text-center text-sm">
             Subscribe
           </span>
         </button>
