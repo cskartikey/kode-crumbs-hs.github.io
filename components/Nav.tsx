@@ -2,7 +2,7 @@ import { Icon } from "@iconify/react";
 import Link from "next/link";
 import { useState } from "react";
 
-function NavBar() {
+const NavBar = () => {
   const [isExpanded, setExpanded] = useState(false);
   return (
     <nav className="fixed w-full bg-kode-crumbs-black dark:bg-kode-crumbs-orange top-0 left-0 right-0 z-10 lg:relative">
@@ -15,10 +15,10 @@ function NavBar() {
           <span className="font-UnicaOne">Crumbs</span>
         </Link>
         <button
-          className="fixed right-2 lg:hidden text-3xl"
+          className="fixed right-2 top-4 lg:hidden text-4xl dark:text-kode-crumbs-black text-kode-crumbs-orange"
           onClick={() => setExpanded(!isExpanded)}
         >
-          <Icon icon="quill:hamburger" />
+          <Icon icon="ic:round-menu" />
         </button>
         
         <div className={`fixed flex flex-col max-w-[300px] min-w-[225px] top-0 h-full justify-center dark:bg-kode-crumbs-orange bg-kode-crumbs-black  ${isExpanded ? "left-0" : "-left-[100%]"} transition-all duration-300 z-20`}>
@@ -42,7 +42,7 @@ function NavBar() {
                 <Link href={"/blog"}>Blog</Link>
               </li>
           </ul>
-          <Link href={"/about-us"} className="dark:bg-kode-crumbs-black py-2 px-4 mt-4 rounded-none text-white w-full font-Billy text-3xl lg:text-2xl bg-kode-crumbs-orange">Join</Link>
+          <Link href={"/about-us"} className="dark:bg-kode-crumbs-black py-2 px-4 mt-4 rounded-none dark:text-white text-kode-crumbs-black w-full font-Billy text-3xl lg:text-2xl bg-kode-crumbs-orange">Join</Link>
         </div>
 
         {/* Overlay */}
