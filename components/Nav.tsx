@@ -6,10 +6,10 @@ function NavBar() {
   const [isExpanded, setExpanded] = useState(false);
   return (
     <nav className="w-full bg-kode-crumbs-black dark:bg-kode-crumbs-orange top-0 left-0 right-0 z-10">
-      <div className="flex flex-col lg:flex-row px-4 lg:px-48 py-4 lg:items-center justify-between lg:inset-0">
+      <div className="flex flex-col lg:flex-row px-4 lg:px-24 xl:px-48 py-4 lg:items-center justify-between lg:inset-0">
         <Link
           href={"/"}
-          className="flex gap-x-2 lg:gap-x-3 text-4xl lg:text-5xl dark:text-kode-crumbs-black text-kode-crumbs-orange"
+          className="flex gap-x-2 lg:gap-x-3 text-4xl xl:text-5xl dark:text-kode-crumbs-black text-kode-crumbs-orange"
         >
           <span className="font-FiraSans font-bold">Kode</span>{" "}
           <span className="font-UnicaOne">Crumbs</span>
@@ -38,7 +38,7 @@ function NavBar() {
 
         </div> */}
 
-        <ul className="hidden lg:flex gap-x-14 dark:text-kode-crumbs-black text-kode-crumbs-orange font-Billy text-xl ">
+        <ul className="hidden lg:flex gap-x-6 2xl:gap-x-14 dark:text-kode-crumbs-black text-kode-crumbs-orange font-Billy text-lg xl:text-xl ">
           <li>
             <Link href={"/about-us"}>About Us</Link>
           </li>
