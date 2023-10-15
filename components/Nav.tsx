@@ -2,7 +2,7 @@ import { Icon } from "@iconify/react";
 import Link from "next/link";
 import { useState } from "react";
 
-const NavBar = () => {
+function NavBar() {
   const [isExpanded, setExpanded] = useState(false);
   return (
     <nav className="fixed w-full bg-kode-crumbs-black dark:bg-kode-crumbs-orange top-0 left-0 right-0 z-10 lg:relative">
@@ -15,14 +15,14 @@ const NavBar = () => {
           <span className="font-UnicaOne">Crumbs</span>
         </Link>
         <button
-          className="fixed right-2 top-4 lg:hidden text-4xl dark:text-kode-crumbs-black text-kode-crumbs-orange"
+          className="fixed right-2 lg:hidden text-3xl"
           onClick={() => setExpanded(!isExpanded)}
         >
-          <Icon icon="ic:round-menu" />
+          <Icon icon="quill:hamburger" />
         </button>
         
-        <div className={`fixed flex flex-col pt-16 max-w-[300px] min-w-[225px] top-0 h-full justify-around dark:bg-kode-crumbs-orange bg-kode-crumbs-black  ${isExpanded ? "left-0" : "-left-[100%]"} transition-all duration-300 z-20 mb-96`}>
-          <ul className="flex flex-col gap-y-14 pl-4 items-baseline flex-start dark:text-kode-crumbs-black text-kode-crumbs-orange font-Billy text-3xl lg:text-2xl w-full">
+        <div className={`fixed flex flex-col max-w-[300px] min-w-[225px] top-0 h-full justify-center dark:bg-kode-crumbs-orange bg-kode-crumbs-black  ${isExpanded ? "left-0" : "-left-[100%]"} transition-all duration-300 z-20`}>
+          <ul className="flex flex-col gap-y-9 pl-4 items-baseline flex-start dark:text-kode-crumbs-black text-kode-crumbs-orange font-Billy text-3xl lg:text-2xl w-full">
               <li>
                 <Link href={"/"}>Home</Link>
               </li>
@@ -42,7 +42,7 @@ const NavBar = () => {
                 <Link href={"/blog"}>Blog</Link>
               </li>
           </ul>
-          <Link href={"/about-us"} className="dark:bg-kode-crumbs-black py-5 px-4 mb-32 rounded-none dark:text-white text-kode-crumbs-black w-full font-Billy text-3xl lg:text-2xl bg-kode-crumbs-orange">Join</Link>
+          <Link href={"/about-us"} className="dark:bg-kode-crumbs-black py-2 px-4 mt-4 rounded-none text-white w-full font-Billy text-3xl lg:text-2xl bg-kode-crumbs-orange">Join</Link>
         </div>
 
         {/* Overlay */}
