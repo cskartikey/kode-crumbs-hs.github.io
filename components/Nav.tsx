@@ -42,7 +42,7 @@ const NavBar = () => {
                 <Link href={"/blog"}>Blog</Link>
               </li>
           </ul>
-          <Link href={"/about-us"} className="dark:bg-kode-crumbs-black py-2 px-4 mt-4 rounded-none dark:text-white text-kode-crumbs-black w-full font-Billy text-3xl lg:text-2xl bg-kode-crumbs-orange">Join</Link>
+          <Link href={"/about-us"} className="dark:bg-kode-crumbs-black py-5 px-4 mt-4 rounded-none dark:text-white text-kode-crumbs-black w-full font-Billy text-3xl lg:text-2xl bg-kode-crumbs-orange">Join</Link>
         </div>
 
         {/* Overlay */}
