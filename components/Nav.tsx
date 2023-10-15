@@ -63,19 +63,19 @@ const NavBar = () => {
 
         <ul className="hidden lg:flex gap-x-6 2xl:gap-x-14 dark:text-kode-crumbs-black text-kode-crumbs-orange font-Billy text-lg xl:text-xl 2xl:text-2xl">
           <li>
-            <Link href={"/about-us"}>About Us</Link>
+            <Link href={"/about-us"} className="relative after:bg-kode-crumbs-orange after:dark:bg-kode-crumbs-black after:absolute after:h-1 after:w-0 after:-bottom-2 after:left-0 hover:after:w-full after:transition-all after:duration-300 cursor-pointer">About Us</Link>
           </li>
           <li>
-            <Link href={"/events"}>Events</Link>
+            <Link href={"/events"} className="relative after:bg-kode-crumbs-orange after:dark:bg-kode-crumbs-black after:absolute after:h-1 after:w-0 after:-bottom-2 after:left-0 hover:after:w-full after:transition-all after:duration-300 cursor-pointer">Events</Link>
           </li>
           <li>
-            <Link href={"/projets"}>Projects</Link>
+            <Link href={"/projets"} className="relative after:bg-kode-crumbs-orange after:dark:bg-kode-crumbs-black after:absolute after:h-1 after:w-0 after:-bottom-2 after:left-0 hover:after:w-full after:transition-all after:duration-300 cursor-pointer">Projects</Link>
           </li>
           <li>
-            <Link href={"/faqs"}>FAQs</Link>
+            <Link href={"/faqs"} className="relative after:bg-kode-crumbs-orange after:dark:bg-kode-crumbs-black after:absolute after:h-1 after:w-0 after:-bottom-2 after:left-0 hover:after:w-full after:transition-all after:duration-300 cursor-pointer">FAQs</Link>
           </li>
           <li>
-            <Link href={"/blog"}>Blog</Link>
+            <Link href={"/blog"} className="relative after:bg-kode-crumbs-orange after:dark:bg-kode-crumbs-black after:absolute after:h-1 after:w-0 after:-bottom-2 after:left-0 hover:after:w-full after:transition-all after:duration-300 cursor-pointer">Blog</Link>
           </li>
           <li>
             <Link
