@@ -56,8 +56,8 @@ const NavBar = () => {
 
         {/* Overlay */}
         <div
-          className={`fixed top-[72px] left-0 w-full h-full bg-kode-crumbs-black dark:bg-kode-crumbs-orange -z-50 ${
-            isExpanded ? "opacity-25" : "opacity-0"
+          className={`top-[72px] left-0 w-full h-full bg-kode-crumbs-black dark:bg-kode-crumbs-orange -z-50 ${
+            isExpanded ? "opacity-25 fixed" : "opacity-0"
           } transition-all duration-300`}
         ></div>
 
