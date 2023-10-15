@@ -2,6 +2,7 @@ import type { AppProps } from "next/app";
 import { Fira_Sans, Unica_One } from "next/font/google";
 import localFont from "next/font/local";
 import Footer from "@/components/Footer";
+import NavBar from "@/components/Nav";
 import "public/static/css/globals.css";
 
 const fireSans = Fira_Sans({
@@ -44,6 +45,7 @@ export default function MyApp({ Component, pageProps }: AppProps) {
     <main
       className={` ${unicaOne.variable} ${fireSans.variable} ${billy.variable}`}
     >
+      <NavBar />
       <Component {...pageProps} />
       <Footer />
     </main>

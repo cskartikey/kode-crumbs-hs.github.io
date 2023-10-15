@@ -16,6 +16,10 @@ module.exports = {
         UnicaOne: ["var(--font-unica-one)"],
         FiraSans: ["var(--font-fira-sans)"],
       },
+      backgroundImage: {
+        heroDark: "url('/static/svg/heroDark.svg')",
+        hero: "url('/static/svg/hero.svg')",
+      },
     },
   },
   plugins: [],

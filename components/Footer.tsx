@@ -23,21 +23,23 @@ import { Icon } from "@iconify/react";
 
 const Footer = () => {
   return (
-    <div className="grid grid-rows-2 lg:grid-cols-2 lg:grid-rows-2 bg-kode-crumbs-black dark:bg-kode-crumbs-orange px-4 lg:px-36 max-h-[vh] lg:gap-y-28 lg:gap-x-12 xl:gap-x-0">
+    <div className="grid grid-rows-2 lg:grid-cols-2 lg:grid-rows-2 bg-kode-crumbs-black dark:bg-kode-crumbs-orange px-4 lg:px-24 xl:px-48 max-h-[vh] lg:gap-y-28 lg:gap-x-28 xl:gap-x-96">
       <div className="pt-6 row-start-1 text-kode-crumbs-orange dark:text-kode-crumbs-black">
-        <h1 className="text-3xl pb-2">
+        <h1 className="text-3xl pb-2 xl:text-4xl">
           <span className="font-FiraSans font-bold">Kode</span>{" "}
           <span className="font-UnicaOne">Crumbs</span>
         </h1>
-        <p className="font-Billy">
+        <p className="font-Billy xl:text-2xl">
           Unleashing the power of code, one crumbs at a time.
         </p>
         <hr className="h-px my-2 border-0 bg-kode-crumbs-orange dark:bg-kode-crumbs-black lg:hidden" />
       </div>
       <div className="row-start-2 lg:pt-6 lg:row-start-1 lg:col-start-2 text-kode-crumbs-orange dark:text-kode-crumbs-black">
         <div>
-          <h1 className="font-Billy text-lg">Subscribe to our newsletter!</h1>
-          <p className="font-Billy font-light hidden lg:block">
+          <h1 className="font-Billy text-lg xl:text-3xl">
+            Subscribe to our newsletter!
+          </h1>
+          <p className="font-Billy font-light hidden lg:block xl:text-xl">
             Give reasons to sub (such as weekly content, career advice, etc.?)
           </p>
         </div>
@@ -63,26 +65,24 @@ const Footer = () => {
         <hr className="h-px my-2 border-0 bg-kode-crumbs-orange dark:bg-kode-crumbs-black lg:hidden" />
       </div>
       <div className="hidden lg:block lg:row-start-2 lg:col-start-2">
-        <div className="relative mb-2 flex flex-wrap items-stretch w-3/4 xl:w-2/4 font-Billy">
+        <button className="relative mb-2 flex items-stretch w-3/4 font-Billy">
           <input
             type="text"
-            className="relative m-0 block w-[1px] min-w-0 flex-auto rounded-l-md border border-solid border-kode-crumbs-orange dark:border-kode-crumbs-black bg-white bg-clip-padding px-3 py-2 text-base font-normal leading-[1.6] placeholder:text-kode-crumbs-black outline-none transition duration-200 ease-in-out"
+            className="relative m-0 block w-full min-w-0 2xl:placeholder:text-xl 2xl:text-xl flex-auto rounded-l-md border border-solid border-kode-crumbs-orange dark:border-kode-crumbs-black bg-white bg-clip-padding px-3 py-2 text-base font-normal leading-[1.6] placeholder:text-kode-crumbs-black outline-none transition duration-200 ease-in-out"
             placeholder="Email Address"
-            aria-label="Recipient's username"
           />
           <span
-            className="flex items-center whitespace-nowrap rounded-r-md border border-l-0 text-kode-crumbs-black dark:text-white bg-kode-crumbs-orange dark:bg-kode-crumbs-black border-solid border-kode-crumbs-orange  dark:border-kode-crumbs-black px-3 py-2 text-center text-base"
-            id="basic-addon2"
+            className="flex items-center 2xl:text-xl w-8/12 2xl:w-5/12 whitespace-nowrap rounded-r-md border border-l-0 text-kode-crumbs-black dark:text-white bg-kode-crumbs-orange dark:bg-kode-crumbs-black border-solid border-kode-crumbs-orange  dark:border-kode-crumbs-black px-3 py-2 text-center text-base"
           >
             Subscribe
           </span>
-        </div>
+        </button>
         <p className="font-Billy text-kode-crumbs-orange dark:text-kode-crumbs-black text-xs">
           No spam. No affiliate links. No data sharing.
         </p>
       </div>
       <div className="row-start-3 -mt-4 mb-2 lg:mb-0 md:mt-2 lg:row-start-2 text-kode-crumbs-orange dark:text-kode-crumbs-black">
-        <div className="grid grid-cols-4 grid-rows-2 w-[15vh] md:text-xl lg:text-2xl auto-cols-max">
+        <div className="grid grid-cols-4 grid-rows-2 w-[15vh] md:text-xl lg:text-2xl auto-cols-max gap-x-10">
           <Link href="https://github.com/kodecrumbs">
             <Icon icon="bi:github" />
           </Link>

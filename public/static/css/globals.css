@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.split-background {
+  background: linear-gradient(
+    to right,
+    rgba(255, 189, 89, 1) 0%,
+    rgba(255, 189, 89, 1) 50%,
+    rgba(255, 189, 89, 0.25) 50%,
+    rgba(255, 189, 89, 0.25) 100%
+  );
+}
