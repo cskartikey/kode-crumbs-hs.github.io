@@ -48,10 +48,10 @@ export default function MyApp({ Component, pageProps }: AppProps) {
       className={` ${unicaOne.variable} ${fireSans.variable} ${billy.variable}`}
     >
       <ThemeProvider attribute="class">
-      <NavBar />
-      <Component {...pageProps} />
-      <ToggleButton/>
-      <Footer />
+        <NavBar />
+        <Component {...pageProps} />
+        <ToggleButton />
+        <Footer />
       </ThemeProvider>
     </main>
   );
