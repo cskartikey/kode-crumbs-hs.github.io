@@ -7,7 +7,7 @@ export default function Page() {
         <title>Kode Crumbs</title>
       </Head>
       {/* Hero */}
-      <div className="grid grid-cols-2 bg-hero dark:bg-heroDark px-4 lg:px-24 xl:px-48 py-20 bg-no-repeat bg-cover">
+      <div className="grid grid-cols-2 bg-hero dark:bg-heroDark px-4 lg:px-24 xl:px-48 py-20 bg-no-repeat bg-cover mt-[72px] lg:mt-0">
         <div className="font-Billy text-4xl 2xl:text-6xl text-kode-crumbs-black dark:text-kode-crumbs-orange self-center">
           Unleash Your Coding Potential{" "}
           <span className="underline decoration-wavy">with Kode Crumbs</span>
