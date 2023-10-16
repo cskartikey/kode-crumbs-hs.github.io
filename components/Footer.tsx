@@ -47,13 +47,11 @@ const Footer = () => {
           <div className="relative mb-2 flex flex-wrap items-stretch w-3/4 font-Billy">
             <input
               type="text"
-              className="relative m-0 block w-[1px] min-w-0 flex-auto rounded-l-md border border-solid border-kode-crumbs-orange dark:border-kode-crumbs-black bg-white bg-clip-padding px-3 py-2 text-base font-normal leading-[1.6] placeholder:text-kode-crumbs-black outline-none transition duration-200 ease-in-out text-kode-crumbs-black"
+              className="relative m-0 block w-[1px] min-w-0 flex-auto rounded-l-md border border-solid border-kode-crumbs-orange dark:border-kode-crumbs-black bg-white px-3 py-2 text-base placeholder:text-kode-crumbs-black text-kode-crumbs-black dark:text-current"
               placeholder="Email Address"
-              aria-label="Recipient's username"
             />
             <span
               className="flex items-center whitespace-nowrap rounded-r-md border border-l-0 dark:text-white text-kode-crumbs-black bg-kode-crumbs-orange dark:bg-kode-crumbs-black border-solid border-kode-crumbs-orange dark:border-kode-crumbs-black px-3 py-2 text-center text-base"
-              id="basic-addon2"
             >
               Subscribe
             </span>

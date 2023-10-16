@@ -16,24 +16,24 @@ export default function Page() {
         </div>
         <div className="col-start-2 justify-self-end">
           <Image
-            src={"/static/img/KodeCrumbs.png"}
+            src={"/static/svg/KodeCrumbs.svg"}
             alt="Kode Crumbs logo"
-            width={400}
-            height={400}
-            className="rounded-lg hidden lg:block"
+            width={1000}
+            height={1000}
+            className="rounded-lg hidden lg:block scale-125"
           />
         </div>
       </div>
       <hr className="h-px border-0 dark:bg-gray-800 hidden lg:block" />
       {/* 2nd section */}
-      <div className="grid grid-rows-2 lg:grid-rows-none lg:grid-cols-3 bg-white dark:bg-kode-crumbs-black px-4 lg:px-24 xl:px-48 py-2 lg:py-20 lg:gap-x-12">
+      <div className="grid grid-rows-2 lg:grid-rows-none lg:grid-cols-3 bg-white dark:bg-kode-crumbs-black px-4 lg:px-24 xl:px-48 py-2 lg:py-28 lg:gap-x-12">
         <div className="lg:col-start-1 lg:justify-self-start">
           <Image
-            src={"/static/img/KodeCrumbs.png"}
+            src={"/static/svg/ideasNeutral.svg"}
             alt="Kode Crumbs logo"
-            width={400}
-            height={400}
-            className="rounded-lg hidden lg:block"
+            width={1000}
+            height={1000}
+            className="hidden lg:block scale-150"
           />
         </div>
         <Image
@@ -41,14 +41,14 @@ export default function Page() {
           alt="zig-zag arrow"
           width={400}
           height={400}
-          className="lg:self-center lg:items-center lg:justify-self-center lg:hidden lg:dark:block lg:w-full hidden"
+          className="lg:self-center lg:items-center lg:justify-self-center lg:hidden lg:dark:block lg:w-4/5 hidden"
         />
         <Image
           src={"/static/svg/dashed-arrow.svg"}
           alt="zig-zag arrow"
-          width={400}
-          height={400}
-          className="lg:self-center lg:items-center lg:justify-self-center lg:dark:hidden lg:block lg:w-full hidden"
+          width={300}
+          height={300}
+          className="lg:self-center lg:items-center lg:justify-self-center lg:dark:hidden lg:block lg:w-4/5 hidden"
         />
         <Image
           src={"/static/svg/squigglyArrowDark.svg"}
@@ -70,7 +70,7 @@ export default function Page() {
       </div>
       <hr className="h-px border-0 dark:bg-gray-800 hidden lg:block" />
       {/* 3rd section */}
-      <div className="grid grid-rows-2 lg:grid-rows-none lg:grid-cols-3 bg-white dark:bg-kode-crumbs-black px-4 lg:px-24 xl:px-48 py-2 lg:py-20 gap-x-12">
+      <div className="grid grid-rows-2 lg:grid-rows-none lg:grid-cols-3 bg-white dark:bg-kode-crumbs-black px-4 lg:px-24 xl:px-48 py-2 lg:py-28 gap-x-12">
         <div className="lg:justify-self-start row-start-2 pr-6 lg:pr-0 lg:row-start-auto lg:col-start-1 font-Billy text-4xl 2xl:text-6xl text-kode-crumbs-black dark:text-kode-crumbs-orange self-center">
           Connect with other highschoolers
         </div>
@@ -79,22 +79,29 @@ export default function Page() {
           alt="bi-directional arrow"
           width={400}
           height={400}
-          className="lg:self-center lg:items-center lg:justify-self-center lg:hidden lg:dark:block lg:w-full hidden"
+          className="lg:self-center lg:items-center lg:justify-self-center lg:hidden lg:dark:block lg:w-4/5 hidden"
         />
         <Image
           src={"/static/svg/bi-directional.svg"}
           alt="bi-directional arrow"
           width={400}
           height={400}
-          className="lg:self-center lg:items-center lg:justify-self-center lg:dark:hidden lg:block lg:w-full hidden"
+          className="lg:self-center lg:items-center lg:justify-self-center lg:dark:hidden lg:block lg:w-4/5 hidden"
         />
         <div className="lg:col-start-3 justify-self-end">
           <Image
-            src={"/static/img/KodeCrumbs.png"}
+            src={"/static/svg/connectDark.svg"}
             alt="Kode Crumbs logo"
-            width={400}
-            height={400}
-            className="rounded-lg hidden lg:block"
+            width={1000}
+            height={1000}
+            className="rounded-lg lg:hidden lg:dark:block hidden scale-150"
+          />
+          <Image
+            src={"/static/svg/connect.svg"}
+            alt="Kode Crumbs logo"
+            width={1000}
+            height={1000}
+            className="rounded-lg lg:dark:hidden lg:block hidden scale-150"
           />
         </div>
         <Image
@@ -114,14 +121,21 @@ export default function Page() {
       </div>
       <hr className="h-px border-0 dark:bg-gray-800 hidden lg:block" />
       {/* 4th section */}
-      <div className="grid grid-rows-2 lg:grid-rows-none lg:grid-cols-3 bg-white dark:bg-kode-crumbs-black px-4 lg:px-24 xl:px-48 py-2 lg:py-20 gap-x-12">
-        <div className="lg:col-start-1 lg:justify-self-start">
-          <Image
-            src={"/static/img/KodeCrumbs.png"}
+      <div className="grid grid-rows-2 lg:grid-rows-none lg:grid-cols-3 bg-white dark:bg-kode-crumbs-black px-4 lg:px-24 xl:px-48 py-2 lg:py-28 gap-x-12">
+        <div className="lg:col-start-1 lg:justify-self-start ">
+        <Image
+            src={"/static/svg/exploreDark.svg"}
             alt="Kode Crumbs logo"
-            width={400}
-            height={400}
-            className="rounded-lg hidden lg:block"
+            width={1000}
+            height={1000}
+            className="rounded-lg lg:hidden lg:dark:block hidden scale-150"
+          />
+          <Image
+            src={"/static/svg/explore.svg"}
+            alt="Kode Crumbs logo"
+            width={1000}
+            height={1000}
+            className="rounded-lg lg:dark:hidden lg:block hidden scale-150"
           />
         </div>
         <Image
@@ -129,14 +143,14 @@ export default function Page() {
           alt="triple arrow"
           width={400}
           height={400}
-          className="lg:self-center lg:items-center lg:justify-self-center lg:hidden lg:dark:block lg:w-full hidden"
+          className="lg:self-center lg:items-center lg:justify-self-center lg:hidden lg:dark:block lg:w-4/5 hidden"
         />
         <Image
           src={"/static/svg/triple.svg"}
           alt="triple arrow"
           width={400}
           height={400}
-          className="lg:self-center lg:items-center lg:justify-self-center lg:dark:hidden lg:block lg:w-full hidden"
+          className="lg:self-center lg:items-center lg:justify-self-center lg:dark:hidden lg:block lg:w-4/5 hidden"
         />
         <Image
           src={"/static/svg/bi-YdirectionalDark.svg"}
