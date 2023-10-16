@@ -18,7 +18,7 @@ const AboutUs = () => {
             alt="about-us-arrow"
             width={200}
             height={200}
-            className="pt-8 lg:hidden lg:dark:block hidden w-1/4 lg:w-1/6 xl:w-auto pl-2"
+            className="pt-8 lg:hidden lg:dark:block dark:block hidden w-1/4 lg:w-1/6 xl:w-auto pl-2"
           />
           <Image
             src={"/static/svg/about-us-arrow.svg"}
