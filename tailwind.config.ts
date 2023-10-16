@@ -11,6 +11,8 @@ module.exports = {
       colors: {
         "kode-crumbs-black": "#191E25",
         "kode-crumbs-orange": "#FFBD59",
+        "link-dark-mode": "#59C3FF",
+        "link-light-mode": "#00F",
       },
       fontFamily: {
         Billy: ["var(--font-billy)"],

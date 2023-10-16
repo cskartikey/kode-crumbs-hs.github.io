@@ -123,7 +123,7 @@ export default function Page() {
       {/* 4th section */}
       <div className="grid grid-rows-2 lg:grid-rows-none lg:grid-cols-3 bg-white dark:bg-kode-crumbs-black px-4 lg:px-24 xl:px-48 py-2 lg:py-28 gap-x-12">
         <div className="lg:col-start-1 lg:justify-self-start ">
-        <Image
+          <Image
             src={"/static/svg/exploreDark.svg"}
             alt="Kode Crumbs logo"
             width={1000}

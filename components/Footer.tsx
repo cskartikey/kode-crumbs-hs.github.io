@@ -30,7 +30,7 @@ const Footer = () => {
           <span className="font-UnicaOne">Crumbs</span>
         </h1>
         <p className="font-Billy xl:text-2xl">
-          Unleashing the power of code, one crumbs at a time.
+          Unleashing the power of code, one crumb at a time.
         </p>
         <hr className="h-px my-2 border-0 bg-kode-crumbs-orange dark:bg-kode-crumbs-black lg:hidden" />
       </div>
@@ -50,9 +50,7 @@ const Footer = () => {
               className="relative m-0 block w-[1px] min-w-0 flex-auto rounded-l-md border border-solid border-kode-crumbs-orange dark:border-kode-crumbs-black bg-white px-3 py-2 text-base placeholder:text-kode-crumbs-black text-kode-crumbs-black dark:text-current"
               placeholder="Email Address"
             />
-            <span
-              className="flex items-center whitespace-nowrap rounded-r-md border border-l-0 dark:text-white text-kode-crumbs-black bg-kode-crumbs-orange dark:bg-kode-crumbs-black border-solid border-kode-crumbs-orange dark:border-kode-crumbs-black px-3 py-2 text-center text-base"
-            >
+            <span className="flex items-center whitespace-nowrap rounded-r-md border border-l-0 dark:text-white text-kode-crumbs-black bg-kode-crumbs-orange dark:bg-kode-crumbs-black border-solid border-kode-crumbs-orange dark:border-kode-crumbs-black px-3 py-2 text-center text-base">
               Subscribe
             </span>
           </div>
