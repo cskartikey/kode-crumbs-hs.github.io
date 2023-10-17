@@ -43,11 +43,11 @@ const AboutUs = () => {
             Join us today and be part of the future of technology!
           </Link>
         </p>
-        <div className="grid lg:grid-cols-3 py-10 gap-y-10 gap-x-10">
+        <div className="grid lg:grid-cols-3 py-10 gap-y-10 lg:gap-x-10">
           <h1 className="font-Billy text-4xl lg:text-5xl 2xl:text-6xl col-span-2 text-kode-crumbs-black dark:text-kode-crumbs-orange">
             Meet the team!
           </h1>
-          <div className="flex flex-col items-center lg:col-start-1 gap-y-2">
+          <div className="flex flex-col items-center col-start-1 lg:col-start-1 gap-y-2">
             <Image
               src={"/static/img/KodeCrumbs.png"}
               alt="portrait of Kartikey"
@@ -62,18 +62,18 @@ const AboutUs = () => {
               Founder + Full Stack Developer
             </p>
             <div className="flex flex-row gap-x-4 text-2xl 2xl:text-3xl text-kode-crumbs-black dark:text-kode-crumbs-orange items-center ">
-              <Link href={""}>
+              <Link href={"mailto:skartikey314@gmai.com"}>
                 <Icon icon={"ic:round-email"} className="text-3xl 2xl:text-4xl" />
               </Link>
-              <Link href={""}>
-                <Icon icon={"bi:linkedin"} className="" />
+              <Link href={"https://linkedin.com/in/cskartikey"}>
+                <Icon icon={"bi:linkedin"}/>
               </Link>
-              <Link href={""}>
+              <Link href={"https://github.com/cskartikey"}>
                 <Icon icon={"bi:github"} />
               </Link>
             </div>
           </div>
-          <div className="flex flex-col items-center lg:col-start-2 gap-y-2">
+          <div className="flex flex-col items-center col-start-1 lg:col-start-2 gap-y-2">
             <Image
               src={"/static/img/KodeCrumbs.png"}
               alt="portrait of Kunwar"
@@ -88,18 +88,18 @@ const AboutUs = () => {
               Co-Founder + Graphic Desinger
             </p>
             <div className="flex flex-row gap-x-4 text-2xl 2xl:text-3xl text-kode-crumbs-black dark:text-kode-crumbs-orange items-center ">
-              <Link href={""}>
+              <Link href={"mailto:kunwar15utkarsh@gmail.com"}>
                 <Icon icon={"ic:round-email"} className="text-4xl" />
               </Link>
-              <Link href={""}>
+              <Link href={"https://www.linkedin.com/in/k-utkarsh-21072b273"}>
                 <Icon icon={"bi:linkedin"} className="" />
               </Link>
-              <Link href={""}>
+              <Link href={"https://github.com/mk-utkarsh"}>
                 <Icon icon={"bi:github"} />
               </Link>
             </div>
           </div>
-          <div className="flex flex-col items-center lg:col-start-3 gap-y-2">
+          <div className="flex flex-col items-center col-start-1 lg:col-start-3 gap-y-2">
             <Image
               src={"/static/img/KodeCrumbs.png"}
               alt="portrait of Shreya"
@@ -114,13 +114,13 @@ const AboutUs = () => {
               Co-Founder + Marketing Manager
             </p>
             <div className="flex flex-row gap-x-4 text-2xl 2xl:text-3xl text-kode-crumbs-black dark:text-kode-crumbs-orange items-center ">
-              <Link href={""}>
+              <Link href={"mailto:"}>
                 <Icon icon={"ic:round-email"} className="text-4xl" />
               </Link>
-              <Link href={""}>
-                <Icon icon={"bi:linkedin"} className="" />
+              <Link href={"https://www.linkedin.com/in/shreya-maurya-322b33272"}>
+                <Icon icon={"bi:linkedin"}/>
               </Link>
-              <Link href={""}>
+              <Link href={"https://www.githum.com/mauryashreya"}>
                 <Icon icon={"bi:github"} />
               </Link>
             </div>
@@ -143,10 +143,10 @@ const AboutUs = () => {
               <Link href={""}>
                 <Icon icon={"ic:round-email"} className="text-4xl" />
               </Link>
-              <Link href={""}>
-                <Icon icon={"bi:linkedin"} className="" />
+              <Link href={"https://linkedin.com/in/malycia-a-338524282"}>
+                <Icon icon={"bi:linkedin"}/>
               </Link>
-              <Link href={""}>
+              <Link href={"https://github.com/FireBreather65"}>
                 <Icon icon={"bi:github"} />
               </Link>
             </div>
@@ -166,13 +166,13 @@ const AboutUs = () => {
               Social Media Manager
             </p>
             <div className="flex flex-row gap-x-4 text-2xl 2xl:text-3xl text-kode-crumbs-black dark:text-kode-crumbs-orange items-center ">
-              <Link href={""}>
+              <Link href={"mailto:rakritarao26aug2006@gmail.com"}>
                 <Icon icon={"ic:round-email"} className="text-4xl" />
               </Link>
-              <Link href={""}>
+              <Link href={"https://linkedin.com/in/rakrita-rao-4294b4279"}>
                 <Icon icon={"bi:linkedin"} className="" />
               </Link>
-              <Link href={""}>
+              <Link href={"https://github.com/rakritarao"}>
                 <Icon icon={"bi:github"} />
               </Link>
             </div>
@@ -192,13 +192,13 @@ const AboutUs = () => {
               Full Stack Developer
             </p>
             <div className="flex flex-row gap-x-4 text-2xl 2xl:text-3xl text-kode-crumbs-black dark:text-kode-crumbs-orange items-center ">
-              <Link href={""}>
+              <Link href={"mailto:vermachitransh12@gmail.com"}>
                 <Icon icon={"ic:round-email"} className="text-4xl" />
               </Link>
-              <Link href={""}>
-                <Icon icon={"bi:linkedin"} className="" />
+              <Link href={"https://linkedin.com/in/thearcane"}>
+                <Icon icon={"bi:linkedin"}/>
               </Link>
-              <Link href={""}>
+              <Link href={"https://github.com/AnonymousXC"}>
                 <Icon icon={"bi:github"} />
               </Link>
             </div>
