@@ -128,13 +128,13 @@ const AboutUs = () => {
           <div className="flex flex-col items-center col-start-1 lg:col-start-1 gap-y-2">
             <Image
               src={"/static/img/KodeCrumbs.png"}
-              alt="portrait of Malaycia"
+              alt="portrait of Malycia"
               width={400}
               height={400}
               className="rounded-lg"
             />
             <p className="font-Billy font-normal text-2xl 2xl:text-3xl text-kode-crumbs-black dark:text-kode-crumbs-orange">
-              Malaycia Ashely
+              Malycia Ashely
             </p>
             <p className="font-Billy font-light text-lg 2xl:text-xl text-kode-crumbs-black dark:text-kode-crumbs-orange">
               Lead UI Designer
