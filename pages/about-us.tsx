@@ -63,10 +63,13 @@ const AboutUs = () => {
             </p>
             <div className="flex flex-row gap-x-4 text-2xl 2xl:text-3xl text-kode-crumbs-black dark:text-kode-crumbs-orange items-center ">
               <Link href={"mailto:skartikey314@gmai.com"}>
-                <Icon icon={"ic:round-email"} className="text-3xl 2xl:text-4xl" />
+                <Icon
+                  icon={"ic:round-email"}
+                  className="text-3xl 2xl:text-4xl"
+                />
               </Link>
               <Link href={"https://linkedin.com/in/cskartikey"}>
-                <Icon icon={"bi:linkedin"}/>
+                <Icon icon={"bi:linkedin"} />
               </Link>
               <Link href={"https://github.com/cskartikey"}>
                 <Icon icon={"bi:github"} />
@@ -117,8 +120,10 @@ const AboutUs = () => {
               <Link href={"mailto:"}>
                 <Icon icon={"ic:round-email"} className="text-4xl" />
               </Link>
-              <Link href={"https://www.linkedin.com/in/shreya-maurya-322b33272"}>
-                <Icon icon={"bi:linkedin"}/>
+              <Link
+                href={"https://www.linkedin.com/in/shreya-maurya-322b33272"}
+              >
+                <Icon icon={"bi:linkedin"} />
               </Link>
               <Link href={"https://www.githum.com/mauryashreya"}>
                 <Icon icon={"bi:github"} />
@@ -144,7 +149,7 @@ const AboutUs = () => {
                 <Icon icon={"ic:round-email"} className="text-4xl" />
               </Link>
               <Link href={"https://linkedin.com/in/malycia-a-338524282"}>
-                <Icon icon={"bi:linkedin"}/>
+                <Icon icon={"bi:linkedin"} />
               </Link>
               <Link href={"https://github.com/FireBreather65"}>
                 <Icon icon={"bi:github"} />
@@ -196,7 +201,7 @@ const AboutUs = () => {
                 <Icon icon={"ic:round-email"} className="text-4xl" />
               </Link>
               <Link href={"https://linkedin.com/in/thearcane"}>
-                <Icon icon={"bi:linkedin"}/>
+                <Icon icon={"bi:linkedin"} />
               </Link>
               <Link href={"https://github.com/AnonymousXC"}>
                 <Icon icon={"bi:github"} />
