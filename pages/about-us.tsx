@@ -133,25 +133,25 @@ const AboutUs = () => {
           <div className="flex flex-col items-center col-start-1 lg:col-start-1 gap-y-2">
             <Image
               src={"/static/img/KodeCrumbs.png"}
-              alt="portrait of Malycia"
+              alt="portrait of Om"
               width={400}
               height={400}
               className="rounded-lg"
             />
             <p className="font-Billy font-normal text-2xl 2xl:text-3xl text-kode-crumbs-black dark:text-kode-crumbs-orange">
-              Malycia Ashely
+              Om Nigam
             </p>
             <p className="font-Billy font-light text-lg 2xl:text-xl text-kode-crumbs-black dark:text-kode-crumbs-orange">
-              Lead UI Designer
+              Club Lead at Stella Maris
             </p>
             <div className="flex flex-row gap-x-4 text-2xl 2xl:text-3xl text-kode-crumbs-black dark:text-kode-crumbs-orange items-center ">
-              <Link href={""}>
+              <Link href={"mailto:avi.codez.00@gmail.com"}>
                 <Icon icon={"ic:round-email"} className="text-4xl" />
               </Link>
-              <Link href={"https://linkedin.com/in/malycia-a-338524282"}>
+              <Link href={"https://linkedin.com/in/"}>
                 <Icon icon={"bi:linkedin"} />
               </Link>
-              <Link href={"https://github.com/FireBreather65"}>
+              <Link href={"https://github.com/avicdr"}>
                 <Icon icon={"bi:github"} />
               </Link>
             </div>
@@ -204,6 +204,91 @@ const AboutUs = () => {
                 <Icon icon={"bi:linkedin"} />
               </Link>
               <Link href={"https://github.com/AnonymousXC"}>
+                <Icon icon={"bi:github"} />
+              </Link>
+            </div>
+          </div>
+          <div className="flex flex-col items-center col-start-1 lg:col-start-1 gap-y-2">
+            <Image
+              src={"/static/img/KodeCrumbs.png"}
+              alt="portrait of Kashvi"
+              width={400}
+              height={400}
+              className="rounded-lg"
+            />
+            <p className="font-Billy font-normal text-2xl 2xl:text-3xl text-kode-crumbs-black dark:text-kode-crumbs-orange">
+              Kashvi Paul
+            </p>
+            <p className="font-Billy font-light text-lg 2xl:text-xl text-kode-crumbs-black dark:text-kode-crumbs-orange">
+              Senior Editor
+            </p>
+            <div className="flex flex-row gap-x-4 text-2xl 2xl:text-3xl text-kode-crumbs-black dark:text-kode-crumbs-orange items-center ">
+              <Link href={"mailto:kashvip05@gmail.com"}>
+                <Icon icon={"ic:round-email"} className="text-4xl" />
+              </Link>
+              <Link href={"https://www.linkedin.com/in/kashvi-paul-541a68275"}>
+                <Icon icon={"bi:linkedin"} />
+              </Link>
+              <Link href={"https://github.com"}>
+                <Icon icon={"bi:github"} />
+              </Link>
+            </div>
+          </div>
+          <div className="flex flex-col items-center col-start-1 lg:col-start-2 gap-y-2">
+            <Image
+              src={"/static/img/KodeCrumbs.png"}
+              alt="portrait of Pavni"
+              width={400}
+              height={400}
+              className="rounded-lg"
+            />
+            <p className="font-Billy font-normal text-2xl 2xl:text-3xl text-kode-crumbs-black dark:text-kode-crumbs-orange">
+              Pavni Pandey
+            </p>
+            <p className="font-Billy font-light text-lg 2xl:text-xl text-kode-crumbs-black dark:text-kode-crumbs-orange">
+              Editor
+            </p>
+            <div className="flex flex-row gap-x-4 text-2xl 2xl:text-3xl text-kode-crumbs-black dark:text-kode-crumbs-orange items-center ">
+              <Link href={"mailto:pavnipandey16@gmail.com"}>
+                <Icon icon={"ic:round-email"} className="text-4xl" />
+              </Link>
+              <Link href={"http://www.linkedin.com/in/pavni-pandey-740356278"}>
+                <Icon icon={"bi:linkedin"} />
+              </Link>
+              <Link href={"https://github.com"}>
+                <Icon icon={"bi:github"} />
+              </Link>
+            </div>
+          </div>
+        </div>
+        {/* Acknowledgments */}
+        <div className="grid lg:grid-cols-3 py-10 gap-y-10 lg:gap-x-10">
+          <h1 className="font-Billy text-4xl lg:text-5xl 2xl:text-6xl col-span-2 text-kode-crumbs-black dark:text-kode-crumbs-orange">
+            Acknowledgments
+          </h1>
+          <p className="dark:text-kode-crumbs-orange text-kode-crumbs-black font-Billy text-base lg:text-xl 2xl:text-2xl font-light col-start-1 col-span-6">Thank you ♥ everyone for shaping Kode Crumbs :)</p>
+          <div className="flex flex-col items-center col-start-1 lg:col-start-1 gap-y-2">
+            <Image
+              src={"/static/img/KodeCrumbs.png"}
+              alt="portrait of Malycia"
+              width={400}
+              height={400}
+              className="rounded-lg"
+            />
+            <p className="font-Billy font-normal text-2xl 2xl:text-3xl text-kode-crumbs-black dark:text-kode-crumbs-orange">
+              Malycia Ashely
+            </p>
+            <p className="font-Billy font-light text-lg 2xl:text-xl text-kode-crumbs-black dark:text-kode-crumbs-orange">
+              Lead UI Designer <span className="text-gray-500">(they/them)</span>
+            </p>
+            <div className="flex flex-row gap-x-4 text-2xl 2xl:text-3xl text-kode-crumbs-black dark:text-kode-crumbs-orange items-center ">
+              <Link href={""}>
+                <Icon icon={"ic:round-email"} className="text-4xl" />
+              </Link>
+              <Link href={"https://linkedin.com/in/malycia-a-338524282"}>
+                <Icon icon={"bi:linkedin"} />
+              </Link>
+              <Link href={"https://github.com/FireBreather65"}>
                 <Icon icon={"bi:github"} />
               </Link>
             </div>
