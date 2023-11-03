@@ -269,14 +269,14 @@ const AboutUs = () => {
           <p className="dark:text-kode-crumbs-orange text-kode-crumbs-black font-Billy text-base lg:text-xl 2xl:text-2xl font-light col-start-1 col-span-6">Thank you ♥ everyone for shaping Kode Crumbs :)</p>
           <div className="flex flex-col items-center col-start-1 lg:col-start-1 gap-y-2">
             <Image
-              src={"/static/img/KodeCrumbs.png"}
+              src={"/static/img/malycia.jpeg"}
               alt="portrait of Malycia"
               width={400}
               height={400}
-              className="rounded-lg"
+              className="rounded-lg aspect-auto"
             />
             <p className="font-Billy font-normal text-2xl 2xl:text-3xl text-kode-crumbs-black dark:text-kode-crumbs-orange">
-              Malycia Ashely
+              Malycia Ashley
             </p>
             <p className="font-Billy font-light text-lg 2xl:text-xl text-kode-crumbs-black dark:text-kode-crumbs-orange">
               Lead UI Designer <span className="text-gray-500">(they/them)</span>
