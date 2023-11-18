@@ -11,3 +11,15 @@
     rgba(255, 189, 89, 0.25) 100%
   );
 }
+
+@layer base {
+  input[type=text] {
+    @apply px-3 py-2 outline-none bg-white font-ChakraPetch text-primary-black rounded-md my-2
+  }
+}
+
+@layer utilities {
+  .modal-txt { 
+    font-family: var(--font-chakra-petch);
+  }
+}

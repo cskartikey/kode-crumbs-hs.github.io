@@ -13,11 +13,14 @@ module.exports = {
         "kode-crumbs-orange": "#FFBD59",
         "link-dark-mode": "#59C3FF",
         "link-light-mode": "#00F",
+        "primary-black": "#191E25",
+        "primary-orange": "#FFBD59"
       },
       fontFamily: {
         Billy: ["var(--font-billy)"],
         UnicaOne: ["var(--font-unica-one)"],
         FiraSans: ["var(--font-fira-sans)"],
+        ChakraPetch: ["var(--font-chakra-petch)"],
       },
       backgroundImage: {
         heroDark: "url('/static/svg/heroDark.svg')",

@@ -1,5 +1,5 @@
 import type { AppProps } from "next/app";
-import { Fira_Sans, Unica_One } from "next/font/google";
+import { Fira_Sans, Unica_One, Chakra_Petch } from "next/font/google";
 import localFont from "next/font/local";
 import Footer from "@/components/Footer";
 import NavBar from "@/components/Nav";
@@ -42,10 +42,17 @@ const billy = localFont({
   variable: "--font-billy",
 });
 
+const chakraPetch = Chakra_Petch({
+  weight: ["400"],
+  subsets: ["latin"],
+  display: "swap",
+  variable: "--font-chakra-petch",
+})
+
 export default function MyApp({ Component, pageProps }: AppProps) {
   return (
     <main
-      className={` ${unicaOne.variable} ${fireSans.variable} ${billy.variable}`}
+      className={` ${unicaOne.variable} ${fireSans.variable} ${billy.variable} ${chakraPetch.variable}`}
     >
       <ThemeProvider attribute="class">
         <NavBar />
