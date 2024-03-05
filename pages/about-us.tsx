@@ -129,34 +129,8 @@ const AboutUs = () => {
                 <Icon icon={"bi:github"} />
               </Link>
             </div>
-          </div>
+          </div>  
           <div className="flex flex-col items-center col-start-1 lg:col-start-1 gap-y-2">
-            <Image
-              src={"/static/img/KodeCrumbs.png"}
-              alt="portrait of Om"
-              width={400}
-              height={400}
-              className="rounded-lg"
-            />
-            <p className="font-Billy font-normal text-2xl 2xl:text-3xl text-kode-crumbs-black dark:text-kode-crumbs-orange">
-              Om Nigam
-            </p>
-            <p className="font-Billy font-light text-lg 2xl:text-xl text-kode-crumbs-black dark:text-kode-crumbs-orange">
-              Club Lead at Stella Maris
-            </p>
-            <div className="flex flex-row gap-x-4 text-2xl 2xl:text-3xl text-kode-crumbs-black dark:text-kode-crumbs-orange items-center ">
-              <Link href={"mailto:avi.codez.00@gmail.com"}>
-                <Icon icon={"ic:round-email"} className="text-4xl" />
-              </Link>
-              <Link href={"https://linkedin.com/in/"}>
-                <Icon icon={"bi:linkedin"} />
-              </Link>
-              <Link href={"https://github.com/avicdr"}>
-                <Icon icon={"bi:github"} />
-              </Link>
-            </div>
-          </div>
-          <div className="flex flex-col items-center col-start-1 lg:col-start-2 gap-y-2">
             <Image
               src={"/static/img/KodeCrumbs.png"}
               alt="portrait of Rakrita"
@@ -182,7 +156,7 @@ const AboutUs = () => {
               </Link>
             </div>
           </div>
-          <div className="flex flex-col items-center col-start-1 lg:col-start-3 gap-y-2">
+          <div className="flex flex-col items-center col-start-1 lg:col-start-2 gap-y-2">
             <Image
               src={"/static/img/KodeCrumbs.png"}
               alt="portrait of Chitransh"
@@ -208,7 +182,7 @@ const AboutUs = () => {
               </Link>
             </div>
           </div>
-          <div className="flex flex-col items-center col-start-1 lg:col-start-1 gap-y-2">
+          <div className="flex flex-col items-center col-start-1 lg:col-start-3 gap-y-2">
             <Image
               src={"/static/img/KodeCrumbs.png"}
               alt="portrait of Kashvi"
@@ -234,7 +208,7 @@ const AboutUs = () => {
               </Link>
             </div>
           </div>
-          <div className="flex flex-col items-center col-start-1 lg:col-start-2 gap-y-2">
+          <div className="flex flex-col items-center col-start-1 lg:col-start-1 gap-y-2">
             <Image
               src={"/static/img/KodeCrumbs.png"}
               alt="portrait of Pavni"

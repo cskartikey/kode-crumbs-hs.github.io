@@ -91,7 +91,7 @@ const Footer = () => {
           </Link>
         </div>
         <p className="-mt-2 text-xs font-Billy row-start-2 w-full col-span-6 lg:text-sm">
-          Made with ♥ <span className="font-sans">| ©</span> 2023 Kode Crumbs
+          Made with ♥ <span className="font-sans">| ©</span> 2024 Kode Crumbs
         </p>
       </div>
     </div>
